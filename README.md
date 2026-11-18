@@ -17,3 +17,5 @@ Ningún código sube de forma directa a producción:
 El repositorio cuenta con automatización mediante **GitHub Actions** (`.github/workflows/ci-cd.yml`):
 1. **Build y Test Automático:** Ante cada Pull Request, el sistema compila la app y ejecuta pruebas unitarias para validar que no haya errores.
 2. **Despliegue Continuo (Deploy):** Al hacer *merge* a la rama `main`, la plataforma se actualiza automáticamente en la nube sin interrumpir el servicio para los pasajeros.
+
+Web App: https://Unpilar.netlify.app
